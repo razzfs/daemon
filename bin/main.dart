@@ -8,9 +8,9 @@ import 'dart:io';
 
 import 'package:logger/logger.dart';
 
-import 'master/master.dart';
-import 'razz_printer.dart';
-import 'volume/volume.dart';
+import 'package:razzd/master/master.dart';
+import 'package:razzd/razz_printer.dart';
+import 'package:razzd/volume/volume.dart';
 
 void main(List<String> arguments) async {
   var entryLogger = Logger(filter: ProductionFilter(), printer: RazzPrinter());

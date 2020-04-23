@@ -19,4 +19,4 @@ doc/api/
 *.js.map
 
 # Contains built files created by the build utility
-bin/
+out/
